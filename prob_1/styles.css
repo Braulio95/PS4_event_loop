@@ -13,15 +13,23 @@ section{
 }
 
 .clock{
-    height: 400px;
-    width: 90%;
-    max-width: 400px;
+    height: 500px;
+    width: 500px;
     border-radius: 50%;
     background-color: rgb(216, 216, 216);
     position: relative;
 }
+.point{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: rgb(228, 147, 147);
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
 
-.hour,.min,.sec{
+.hourhand,.min,.sec{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,7 +40,7 @@ section{
     transform-origin: left;
 
 }
-.hour{
+.hourhand{
     width: 20%;
     background-color: rgb(64, 142, 145);
     height: 8px;
@@ -40,4 +48,61 @@ section{
 .sec{
     border-radius: 50%;
     background-color: rgb(228, 147, 147);
+}
+
+.hour{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    color: rgb(36, 89, 83);
+}
+
+.hour1{
+    top: 40px;
+    right: 130px;
+}
+.hour2{
+    top: 125px;
+    right: 45px;
+}
+.hour3{
+    top: 235px;
+    right: 10px;
+}
+.hour4{
+    top: 345px;
+    right: 45px;
+}
+.hour5{
+    top: 430px;
+    right: 130px;
+}
+.hour6{
+    bottom: 10px;
+    left: 240px;
+}
+.hour7{
+    top: 430px;
+    left: 130px;
+}
+.hour8{
+    top: 345px;
+    left: 45px;
+}
+.hour9{
+    top: 235px;
+    left: 10px;
+}
+.hour10{
+    top: 125px;
+    left: 45px;
+}
+.hour11{
+    top: 40px;
+    left: 130px;
+}
+.hour12{
+    top: 10px;
+    left: 235px;
 }

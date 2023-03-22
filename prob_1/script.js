@@ -1,6 +1,6 @@
 const minEl = document.querySelector('.min');
 const secEl = document.querySelector('.sec');
-const hourEl = document.querySelector('.hour');
+const hourEl = document.querySelector('.hourhand');
 
 
 
