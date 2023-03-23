@@ -25,8 +25,8 @@ section{
     border-radius: 50%;
     background-color: rgb(228, 147, 147);
     position: absolute;
-    top: 240px;
-    left: 240px;
+    top: 48%;
+    left: 48%;
 }
 
 .hourhand,.min,.sec{
@@ -52,7 +52,7 @@ section{
 
 .hour{
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     position: absolute;
     color: rgb(36, 89, 83);
@@ -60,49 +60,49 @@ section{
 
 .hour1{
     top: 40px;
-    right: 130px;
+    right: 27%;
 }
 .hour2{
     top: 125px;
-    right: 45px;
+    right: 9%;
 }
 .hour3{
     top: 235px;
-    right: 10px;
+    right: 2%;
 }
 .hour4{
     top: 345px;
-    right: 45px;
+    right: 9%;
 }
 .hour5{
     top: 430px;
-    right: 130px;
+    right: 26%;
 }
 .hour6{
     bottom: 10px;
-    left: 240px;
+    left: 49%;
 }
 .hour7{
     top: 430px;
-    left: 130px;
+    left: 26%;
 }
 .hour8{
     top: 345px;
-    left: 45px;
+    left: 9%;
 }
 .hour9{
     top: 235px;
-    left: 10px;
+    left: 2%;
 }
 .hour10{
     top: 125px;
-    left: 45px;
+    left: 9%;
 }
 .hour11{
     top: 40px;
-    left: 130px;
+    left: 26%;
 }
 .hour12{
     top: 10px;
-    left: 235px;
+    left: 48%;
 }

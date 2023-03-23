@@ -45,10 +45,10 @@ Expected output:
 
 
 const removeElements = (arr, secondFunction)=>{  
-    const longitude = arr.length;
-    for(let i=0; i < longitude; i++){
-        arr.shift();
-        if(secondFunction(arr[0])){
+    const longitude = arr.length; //We create this variable to make the array lenght a constant value
+    for(let i=0; i < longitude; i++){ //We use this for to go through the array
+        arr.shift(); //This sentence deletes the first value of the array
+        if(secondFunction(arr[0])){ //then we check if the first value passed throught the second function equals true, if it does then we stop de cycle and return de current array, if not the for will iterate until the array is empty
             return arr;
             
         }
